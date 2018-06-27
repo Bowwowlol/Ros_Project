@@ -15,7 +15,7 @@ void imageCallback(const sensor_msgs::ImageConstPtr& msg)
     img = cv_bridge::toCvShare(msg, "bgr8")->image;
     cv::cvtColor(img, gray, CV_BGR2GRAY);
     cv::threshold(gray, gray, 128, 255, 0);
-    cv::Canny(gray, canny, 100, 200);
+    cv::Canny(gray, canny, 50, 150);
 
 
     cv::imshow("view", canny);
