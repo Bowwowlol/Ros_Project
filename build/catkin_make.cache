@@ -1,0 +1,2 @@
+trial
+-G CodeBlocks - Unix Makefiles -DCMAKE_BUILD_TYPE=Debug -DCATKIN_DEVEL_PREFIX=/home/ubuntu/testtt/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/testtt/install
