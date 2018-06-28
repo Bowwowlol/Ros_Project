@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/ubuntu/Ros_Project/build"
+export PWD="/home/ubuntu/testtt/build"

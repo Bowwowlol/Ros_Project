@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.4.1, 2018-06-27T03:52:52. -->
+<!-- Written by QtCreator 4.4.1, 2018-06-28T09:10:14. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -64,7 +64,7 @@
    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">{cd962ad6-72b4-4433-8dab-9d8fcc91c87d}</value>
    <value type="int" key="ProjectExplorer.Target.ActiveBuildConfiguration">0</value>
    <value type="int" key="ProjectExplorer.Target.ActiveDeployConfiguration">0</value>
-   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">0</value>
+   <value type="int" key="ProjectExplorer.Target.ActiveRunConfiguration">1</value>
    <valuemap type="QVariantMap" key="ProjectExplorer.Target.BuildConfiguration.0">
     <value type="QString" key="ProjectExplorer.BuildConfiguration.BuildDirectory"></value>
     <valuemap type="QVariantMap" key="ProjectExplorer.BuildConfiguration.BuildStepList.0">
@@ -102,16 +102,9 @@
     <value type="int" key="ProjectExplorer.BuildConfiguration.BuildStepListCount">2</value>
     <value type="bool" key="ProjectExplorer.BuildConfiguration.ClearSystemEnvironment">false</value>
     <valuelist type="QVariantList" key="ProjectExplorer.BuildConfiguration.UserEnvironmentChanges">
-     <value type="QString">CMAKE_PREFIX_PATH=/home/ubuntu/testtt/devel:/opt/ros/kinetic</value>
-     <value type="QString">LD_LIBRARY_PATH=/home/ubuntu/testtt/devel/lib:/opt/ros/kinetic/lib:/opt/ros/kinetic/lib/aarch64-linux-gnu</value>
-     <value type="QString">OLDPWD</value>
      <value type="QString">PATH=/opt/ros/kinetic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin</value>
-     <value type="QString">PKG_CONFIG_PATH=/home/ubuntu/testtt/devel/lib/pkgconfig:/opt/ros/kinetic/lib/pkgconfig:/opt/ros/kinetic/lib/aarch64-linux-gnu/pkgconfig</value>
      <value type="QString">PWD=/home/ubuntu/testtt</value>
-     <value type="QString">PYTHONPATH=/opt/ros/kinetic/lib/python2.7/dist-packages</value>
      <value type="QString">QTDIR</value>
-     <value type="QString">ROSLISP_PACKAGE_DIRECTORIES=/home/ubuntu/testtt/devel/share/common-lisp</value>
-     <value type="QString">ROS_PACKAGE_PATH=/home/ubuntu/testtt/src:/opt/ros/kinetic/share</value>
      <value type="QString">SHLVL=3</value>
      <value type="QString">TERM=xterm</value>
      <value type="QString">_=/usr/bin/env</value>
@@ -419,9 +412,9 @@
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Arguments"></value>
       <value type="QString" key="ROSProjectManager.ROSGenericStep.Command">rosrun</value>
       <value type="bool" key="ROSProjectManager.ROSGenericStep.DebugContinueOnAttach">false</value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target"></value>
-      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath"></value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Package">testgui</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.Target">testgui</value>
+      <value type="QString" key="ROSProjectManager.ROSGenericStep.TargetPath">/home/ubuntu/testtt/devel/lib/testgui/testgui</value>
      </valuemap>
      <value type="int" key="ProjectExplorer.RunStepList.StepsCount">1</value>
     </valuemap>
